@@ -1,0 +1,89 @@
+{
+	"relationship":
+	[
+		["banana","edible","is"],
+		["sharp","banana","can cut"],
+		["sharp","apple","can cut"],
+		["knife","sharp","can be"],
+		["bottle","consuming liquids","is used for"],
+		["cup","consuming liquids","is used for"],
+		["cup","hot","could be"],
+		["apple","edible","is"],
+		["fork","sharp","is"],
+		["cell phone","electronic","is an"],
+		["laptop","electronic","is a"],
+		["sharp","risks","careful its sharp"],
+		["hot","risks","careful its hot"]
+	],
+	"nodes" : 
+	[
+		["banana","object","kitchen"],
+		["person","object","any"],
+		["knife","object","kitchen"],
+		["bottle","object","kitchen"],
+		["fork","object","kitchen"],
+		["cup","object","kitchen"],
+		["apple","object","kitchen"],
+		["cell phone","object","any"],
+		["laptop","object","any"],
+		["book","object","living room"],
+		["sharp","property","NA"],
+		["edible","property","NA"],
+		["hot","property","NA"],
+		["consuming liquids","property","NA"],
+		["electronic","property","NA"],
+		["risks","risk","NA"]
+	],
+	"keywords" : 
+	{
+		"What can you see" : "allObjectsInScene",
+		"What are you looking at ":"allObjectsInScene",
+		"What's it look like ":"allObjectsInScene",
+		"Do you see anything ":"allObjectsInScene",
+		"What are you watching ":"allObjectsInScene",
+		
+		"Is there anything to eat" : "displayEdiblesInScene",
+		"Do you have anything to eat " : "displayEdiblesInScene",
+		"ls there any food?" : "displayEdiblesInScene",
+		"Is there food on the table?" : "displayEdiblesInScene",
+		"Is there a snack" : "displayEdiblesInScene",
+		"Can I have something to eat" : "displayEdiblesInScene",
+		"Is there something we can eat?" : "displayEdiblesInScene",
+		"Is there any dinner" : "displayEdiblesInScene",
+		"Is there any lunch" : "displayEdiblesInScene",
+		"can you see anything to eat" : "displayEdiblesInScene",
+		"can you see something to eat" : "displayEdiblesInScene",
+		"I am hungry" : "displayEdiblesInScene",
+		
+		"Is there anything to drink" : "displayDrinkablesInScene",
+		"Can I get a drink" : "displayDrinkablesInScene",
+		"Can I have something to drink" : "displayDrinkablesInScene",
+		"Is that something to drink" : "displayDrinkablesInScene",
+		"ls there a drink" : "displayDrinkablesInScene",
+		"Do you see a drink" : "displayDrinkablesInScene",
+		"Is there a drink on the table" : "displayDrinkablesInScene",
+		"I am thirsty" : "displayDrinkablesInScene",
+		
+		"What are the risks" : "displayRisksInScene",
+		"What are the dangers" : "displayRisksInScene",
+		"What are the hazards" : "displayRisksInScene",
+		"What risks are involved." : "displayRisksInScene",
+		"What are the threats" : "displayRisksInScene",
+		"How dangerous it is" : "displayRisksInScene",
+		"Are there any risks" : "displayRisksInScene",
+		"What risks do you face" : "displayRisksInScene",
+		
+		"where am i" : "displayLocation",
+		"where do you think i am" : "displayLocation",
+		"what is the location" : "displayLocation",
+		"which room am i in" : "displayLocation",
+		"what room am i in" : "displayLocation",
+		"where do i stand" : "displayLocation",
+		"where place am I in" : "displayLocation",
+		"what is this place" : "displayLocation",
+		"what is this spot" : "displayLocation"
+	},
+	"activation" :
+	["trixie","taxi","pretty","sexy","dixie","pixie","bricksie",
+	"hey trixie","hey taxi","hey pretty","hey sexy","hey dixie","hey pixie","hey bricksie"]
+}
