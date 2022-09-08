@@ -11,14 +11,13 @@
 		["apple","edible","is"],
 		["fork","sharp","is"],
 		["cell phone","electronic","is an"],
-		["laptop","electronic","is a"],
+		["laptop","electronic","is an"],
 		["sharp","risks","careful its sharp"],
 		["hot","risks","careful its hot"]
 	],
 	"nodes" : 
 	[
 		["banana","object","kitchen"],
-		["person","object","any"],
 		["knife","object","kitchen"],
 		["bottle","object","kitchen"],
 		["fork","object","kitchen"],
@@ -41,6 +40,12 @@
 		"What's it look like ":"allObjectsInScene",
 		"Do you see anything ":"allObjectsInScene",
 		"What are you watching ":"allObjectsInScene",
+		"Can you see anything ":"allObjectsInScene",
+		"Can you see anything in front of me":"allObjectsInScene",
+		"Can you tell me what you see ":"allObjectsInScene",
+		"Can you tell me what are you looking at ":"allObjectsInScene",
+		"Can you tell me whats it look like ":"allObjectsInScene",
+		
 		
 		"Is there anything to eat" : "displayEdiblesInScene",
 		"Do you have anything to eat " : "displayEdiblesInScene",
@@ -48,21 +53,26 @@
 		"Is there food on the table?" : "displayEdiblesInScene",
 		"Is there a snack" : "displayEdiblesInScene",
 		"Can I have something to eat" : "displayEdiblesInScene",
-		"Is there something we can eat?" : "displayEdiblesInScene",
+		"Is there something I can eat?" : "displayEdiblesInScene",
 		"Is there any dinner" : "displayEdiblesInScene",
 		"Is there any lunch" : "displayEdiblesInScene",
 		"can you see anything to eat" : "displayEdiblesInScene",
 		"can you see something to eat" : "displayEdiblesInScene",
 		"I am hungry" : "displayEdiblesInScene",
+		"something to eat" : "displayEdiblesInScene",
+		"food" : "displayEdiblesInScene",
 		
 		"Is there anything to drink" : "displayDrinkablesInScene",
 		"Can I get a drink" : "displayDrinkablesInScene",
 		"Can I have something to drink" : "displayDrinkablesInScene",
-		"Is that something to drink" : "displayDrinkablesInScene",
+		"Can you see anything to drink" : "displayDrinkablesInScene",
+		"Can you see something to drink" : "displayDrinkablesInScene",
+		"Is there something to drink" : "displayDrinkablesInScene",
 		"ls there a drink" : "displayDrinkablesInScene",
 		"Do you see a drink" : "displayDrinkablesInScene",
 		"Is there a drink on the table" : "displayDrinkablesInScene",
 		"I am thirsty" : "displayDrinkablesInScene",
+		"drink" : "displayDrinkablesInScene",
 		
 		"What are the risks" : "displayRisksInScene",
 		"What are the dangers" : "displayRisksInScene",
@@ -72,6 +82,9 @@
 		"How dangerous it is" : "displayRisksInScene",
 		"Are there any risks" : "displayRisksInScene",
 		"What risks do you face" : "displayRisksInScene",
+		"risks" : "displayRisksInScene",
+		"dangers" : "displayRisksInScene",
+		"threats" : "displayRisksInScene",
 		
 		"where am i" : "displayLocation",
 		"where do you think i am" : "displayLocation",
@@ -81,9 +94,15 @@
 		"where do i stand" : "displayLocation",
 		"where place am I in" : "displayLocation",
 		"what is this place" : "displayLocation",
-		"what is this spot" : "displayLocation"
+		"what is this spot" : "displayLocation",
+		"can you tell me my location" : "displayLocation",
+		"can you tell me where I am" : "displayLocation",
+		
+		"location" : "displayLocation"
 	},
 	"activation" :
-	["trixie","taxi","pretty","sexy","dixie","pixie","bricksie",
-	"hey trixie","hey taxi","hey pretty","hey sexy","hey dixie","hey pixie","hey bricksie"]
+	["luna","loona","louna","lena","line a","lina","lona","loony","lanna","luno","nuna","hallelujah","helena","aluna", "la luna","helena","hair toner","hey lola",
+	"hey luna","hey loona","hey louna","hey lena","hey line a","hey lina","hey lona","hey loona","hey lanna","hey luno","hey nuna","hi donna","play luna",
+	"hello luna","hello loona","hello louna","hello lena","hello line a","hello lina","hello lona","hello loona","hello lanna","hello luno","hello nuna",
+	"hi luna","hi loona","hi louna","hi lena","hi line a","hi lina","hi lona","hi loona","hi lanna","hi luno","hi nuna","hi lorna","eyeliner"]
 }
